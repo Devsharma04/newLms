@@ -1,0 +1,73 @@
+.main {
+  height: 88vh;
+  width: 82vw;
+  padding: 2rem 2rem;
+  margin-left: 1.2rem;
+  background-color: white;
+  position: fixed;
+  left: 16vw;
+}
+.Tflex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Tflex button {
+  background-color: white;
+  color: #32308c;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1px solid #32308c;
+  font-weight: 600;
+}
+
+.down {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.textupper {
+  font-weight: 700;
+  font-size: 4vh;
+  color: rgb(119, 119, 119);
+}
+
+.textdown {
+  font-weight: 700;
+  font-size: 3vh;
+  color: rgb(119, 119, 119);
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 88vh;
+    width: 100vw;
+    padding: 2rem 2rem;
+    margin-left: 1.2rem;
+    background-color: white;
+    position: fixed;
+    left: 1vw;
+  }
+  .Tflex button {
+    background-color: white;
+    color: #32308c;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: 1px solid #32308c;
+    font-weight: 600;
+    font-size: 2vw;
+  }
+  .textupper {
+    font-weight: 700;
+    font-size: 3vh;
+    color: rgb(119, 119, 119);
+  }
+  .textdown {
+    font-weight: 700;
+    font-size: 2vh;
+    color: rgb(119, 119, 119);
+  }
+}

@@ -1,0 +1,98 @@
+#input {
+  height: 3rem;
+  width: 20rem;
+  padding-left: 1rem;
+  border-radius: 100px;
+}
+
+.batch_main {
+  height: 97%;
+  width: 85%;
+  padding-left: 2rem;
+  position: fixed;
+  left: 16vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.buttonx {
+  background-color: white;
+  color: #32308c;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1px solid #32308c;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonx:hover {
+  background-color: #32308c;
+  color: white;
+}
+
+.clickx {
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1px solid #32308c;
+  font-weight: 500;
+  background-color: #32308c;
+  color: white;
+}
+
+.cardswrapper {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 1rem;
+  height: calc(100vh - 9rem);
+  padding-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .batch_main {
+    height: 97%;
+    width: 85%;
+    padding-left: 2rem;
+    position: fixed;
+    left: 1vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #input {
+    height: 3rem;
+    width: 15rem;
+    padding-left: 1rem;
+    border-radius: 100px;
+  }
+  .down {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+  }
+  .buttonx {
+    background-color: white;
+    color: #32308c;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 6rem;
+    padding: 8px 10px;
+    border: 1px solid #32308c;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+}

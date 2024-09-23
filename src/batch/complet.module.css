@@ -1,0 +1,37 @@
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 90%;
+  width: 85%;
+  padding-top: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  height: 20rem;
+  width: 25rem;
+  font-weight: 700;
+  box-shadow: 0px -10px 0px 0px #32308c, 0px 5px 10px -5px black;
+}
+
+.textcol {
+  color: #32308c;
+}
+.down {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px dashed black;
+}
+.down button {
+  background-color: #32308c;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 20px;
+  font-weight: 600;
+}

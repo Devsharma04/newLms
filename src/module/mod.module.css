@@ -1,0 +1,40 @@
+.main {
+  height: 88vh;
+  width: 82vw;
+  padding: 2rem;
+  margin-left: 1.2rem;
+  background-color: white;
+  position: fixed;
+  left: 16vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#input {
+  height: 3rem;
+  width: 40%;
+  padding-left: 1rem;
+  border-radius: 100px;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.cardsWrapper {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 74vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: white;
+    position: fixed;
+    left: 1vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,7 @@
+.down {
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+}

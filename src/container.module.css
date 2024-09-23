@@ -1,0 +1,10 @@
+.box {
+  display: flex;
+  width: 100vw;
+  min-height: 92vh;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background-color: #f7f6f4;
+  position: absolute;
+  top: 6rem;
+}
