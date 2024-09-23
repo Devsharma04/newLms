@@ -15,7 +15,7 @@ function Lsection() {
           className={colorvar === 1 ? "click" : "box"}
           onClick={() => Comp_loader(1)}
         >
-          Module
+          Modules
         </button>
       </Link>
       <Link to="/">
