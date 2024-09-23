@@ -1,4 +1,5 @@
 import style from "./header.module.css";
+import brill from "./assets/brillicalogo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
 import { useState } from "react";
@@ -11,7 +12,7 @@ function Head() {
   return (
     <div className={style.main}>
       <div className={style.head}>
-        <img src="" className={style.img} />
+        <img src={brill} className={style.img} />
         <div className={style.right}>
           <span className={style.hide}>
             <sup className={style.bellred}>NEW</sup>
