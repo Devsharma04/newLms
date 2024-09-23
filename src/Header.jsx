@@ -1,4 +1,3 @@
-import Brillica from "./assets/Brillicalogo.jpg";
 import style from "./header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
