@@ -11,7 +11,7 @@ function Head() {
   return (
     <div className={style.main}>
       <div className={style.head}>
-        <img src={Brillica} className={style.img} />
+        <img src="" className={style.img} />
         <div className={style.right}>
           <span className={style.hide}>
             <sup className={style.bellred}>NEW</sup>
